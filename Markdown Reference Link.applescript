@@ -2,7 +2,9 @@
 Adapted from Dr Drang's Markdown Reference Link
 http://www.leancrew.com/all-this/2012/08/markdown-reference-links-in-bbedit/
 
-Rather than relying on the dialog box (I'll nearly always have the URL in the clipboard, and couldn't find a way to paste into the AppleScript dialog box...) this pastes straight from the clipboard
+Rather than relying on the dialog box (I'll nearly always have the URL in the clipboard, 
+and couldn't find a way to paste into the AppleScript dialog box...) this uses 
+the clipboard contents as the default option
 *)
 
 set clipboardURL to "" & (do shell script "pbpaste") & ""
