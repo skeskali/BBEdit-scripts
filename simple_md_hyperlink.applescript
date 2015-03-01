@@ -1,3 +1,5 @@
+-- Converts selected text to inline markdown link using the URL stored in the clipboard 
+
 set clipboardURL to "" & (do shell script "pbpaste") & ""
 
 tell application "BBEdit"
