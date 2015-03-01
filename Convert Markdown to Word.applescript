@@ -1,3 +1,5 @@
+-- uses pandoc to convert markdown file in front window to Word .docx, opens file in Word
+
 on escape(filename)
 	set chars to every character of filename
 	repeat with i from 1 to length of chars
